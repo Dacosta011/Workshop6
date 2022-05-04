@@ -13,7 +13,6 @@ El BME280 logra un alto rendimiento en todas las aplicaciones que requieren hume
 #### Hardware
 Para el sistema iot básico que se utiliza en la simulación se evidencian ciertos componentes físicos necesarios para el desarrollo del ejercicio de lectura de humedad y presión por parte de un sensor. Dichos elementos constan de:
 
- - Raspberry pi
  - Protoboard
  - Sensor BME 280
  - Diodo Led
@@ -41,3 +40,11 @@ Para realizar este proceso fueron necesarios una serie de pasos para hacer la co
  4. Lea los mensajes recibidos por el servicio
 
 Una vez realizados los pasos pertinentes se obtuvo el siguiente resultado en el simulado.
+
+![enter image description here](https://raw.githubusercontent.com/Dacosta011/Workshop6/main/ledOn.png)
+
+Como se puede observar, el actuador led empezó a encender con respecto al comportamiento que se esperaba respecto a la programación anterior. Además, por medio de la consola se empezó a observar la información que se estaba ejecutando y enviando al servicio de IOT.
+
+![enter image description here](https://raw.githubusercontent.com/Dacosta011/Workshop6/main/message.png)
+
+Concluyendo así la simulación dela comunicación entre un dispositivo físico como lo es la raspberry pi y un servicio de gestión y analítica de datos generados por dispositivos IOT como el que ofrece Azure con IOT hub, de manera satisfactoria.
